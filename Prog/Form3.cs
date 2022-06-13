@@ -37,7 +37,7 @@ namespace Prog
                 }
             }
             else
-                MessageBox.Show("답하지 않은 문장이 있습니다.\n모든 문항에 응답해주세요.");
+                MessageBox.Show("답하지 않은 문항이 있습니다.\n모든 문항에 응답해주세요.");
         }
 
     }

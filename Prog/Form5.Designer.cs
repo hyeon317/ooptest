@@ -44,17 +44,18 @@
             this.title_base.Controls.Add(this.label1);
             this.title_base.Dock = System.Windows.Forms.DockStyle.Top;
             this.title_base.Location = new System.Drawing.Point(0, 0);
+            this.title_base.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.title_base.Name = "title_base";
-            this.title_base.Size = new System.Drawing.Size(424, 56);
+            this.title_base.Size = new System.Drawing.Size(485, 70);
             this.title_base.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("휴먼모음T", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(82, 19);
+            this.label1.Location = new System.Drawing.Point(94, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(255, 23);
+            this.label1.Size = new System.Drawing.Size(329, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "대학생들의 휴학과 학업만족도";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -62,9 +63,10 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(12, 148);
+            this.panel1.Location = new System.Drawing.Point(14, 185);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(399, 120);
+            this.panel1.Size = new System.Drawing.Size(456, 150);
             this.panel1.TabIndex = 7;
             // 
             // label2
@@ -74,16 +76,17 @@
             this.label2.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(389, 105);
+            this.label2.Size = new System.Drawing.Size(485, 140);
             this.label2.TabIndex = 0;
             this.label2.Text = resources.GetString("label2.Text");
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(147, 324);
+            this.button1.Location = new System.Drawing.Point(168, 405);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 35);
+            this.button1.Size = new System.Drawing.Size(136, 44);
             this.button1.TabIndex = 8;
             this.button1.Text = "종료하기";
             this.button1.UseVisualStyleBackColor = true;
@@ -91,12 +94,13 @@
             // 
             // Form5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(424, 441);
+            this.ClientSize = new System.Drawing.Size(485, 551);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.title_base);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";
