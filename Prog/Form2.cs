@@ -26,7 +26,8 @@ namespace Prog
 
         private void next_Click(object sender, EventArgs e)
         {
-            if ((q2_b1.Checked == true || q2_b2.Checked == true || q2_b3.Checked == true || q2_b4.Checked == true || q2_b5.Checked == true)
+            if ((q1_b1.Checked == true || q1_b2.Checked == true || q1_b3.Checked == true || q1_b4.Checked == true || q1_b5.Checked == true || q1_b6.Checked == true & q1_b6_text.Text.Length != 0)
+                && (q2_b1.Checked == true || q2_b2.Checked == true || q2_b3.Checked == true || q2_b4.Checked == true || q2_b5.Checked == true)
                 && (q3_b1.Checked == true || q3_b2.Checked == true || q3_b3.Checked == true || q3_b4.Checked == true || q3_b5.Checked == true)
                 && (q4_text.Text.Length != 0))
             {
