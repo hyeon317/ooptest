@@ -76,18 +76,17 @@
             this.title_base.Controls.Add(this.label1);
             this.title_base.Dock = System.Windows.Forms.DockStyle.Top;
             this.title_base.Location = new System.Drawing.Point(0, 0);
-            this.title_base.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.title_base.Name = "title_base";
-            this.title_base.Size = new System.Drawing.Size(485, 70);
+            this.title_base.Size = new System.Drawing.Size(424, 56);
             this.title_base.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("휴먼모음T", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(94, 24);
+            this.label1.Location = new System.Drawing.Point(82, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(329, 30);
+            this.label1.Size = new System.Drawing.Size(255, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "대학생들의 휴학과 학업만족도";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -102,19 +101,17 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.notice);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 77);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 62);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(485, 474);
+            this.panel1.Size = new System.Drawing.Size(424, 379);
             this.panel1.TabIndex = 1;
             // 
             // next
             // 
             this.next.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.next.Location = new System.Drawing.Point(418, 441);
-            this.next.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.next.Location = new System.Drawing.Point(366, 353);
             this.next.Name = "next";
-            this.next.Size = new System.Drawing.Size(62, 29);
+            this.next.Size = new System.Drawing.Size(54, 23);
             this.next.TabIndex = 17;
             this.next.Text = "다음▷";
             this.next.UseVisualStyleBackColor = true;
@@ -125,20 +122,18 @@
             this.panel7.Controls.Add(this.q3_b2);
             this.panel7.Controls.Add(this.q3_b1);
             this.panel7.Controls.Add(this.q3);
-            this.panel7.Location = new System.Drawing.Point(0, 379);
-            this.panel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel7.Location = new System.Drawing.Point(0, 303);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(485, 26);
+            this.panel7.Size = new System.Drawing.Size(424, 21);
             this.panel7.TabIndex = 27;
             // 
             // q3_b2
             // 
             this.q3_b2.AutoSize = true;
             this.q3_b2.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q3_b2.Location = new System.Drawing.Point(319, 1);
-            this.q3_b2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q3_b2.Location = new System.Drawing.Point(279, 1);
             this.q3_b2.Name = "q3_b2";
-            this.q3_b2.Size = new System.Drawing.Size(60, 24);
+            this.q3_b2.Size = new System.Drawing.Size(49, 19);
             this.q3_b2.TabIndex = 19;
             this.q3_b2.TabStop = true;
             this.q3_b2.Text = "없다";
@@ -149,10 +144,9 @@
             // 
             this.q3_b1.AutoSize = true;
             this.q3_b1.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q3_b1.Location = new System.Drawing.Point(256, 1);
-            this.q3_b1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q3_b1.Location = new System.Drawing.Point(224, 1);
             this.q3_b1.Name = "q3_b1";
-            this.q3_b1.Size = new System.Drawing.Size(60, 24);
+            this.q3_b1.Size = new System.Drawing.Size(49, 19);
             this.q3_b1.TabIndex = 18;
             this.q3_b1.TabStop = true;
             this.q3_b1.Text = "있다";
@@ -163,37 +157,34 @@
             // 
             this.q3.AutoSize = true;
             this.q3.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q3.Location = new System.Drawing.Point(10, 4);
+            this.q3.Location = new System.Drawing.Point(9, 3);
             this.q3.Name = "q3";
-            this.q3.Size = new System.Drawing.Size(261, 20);
+            this.q3.Size = new System.Drawing.Size(209, 15);
             this.q3.TabIndex = 17;
             this.q3.Text = "귀하는 현재 휴학한 경험이 있습니까?";
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel4.Location = new System.Drawing.Point(14, 409);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel4.Location = new System.Drawing.Point(12, 327);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(457, 1);
+            this.panel4.Size = new System.Drawing.Size(400, 1);
             this.panel4.TabIndex = 4;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel3.Location = new System.Drawing.Point(14, 375);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel3.Location = new System.Drawing.Point(12, 300);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(457, 1);
+            this.panel3.Size = new System.Drawing.Size(400, 1);
             this.panel3.TabIndex = 3;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel2.Location = new System.Drawing.Point(14, 316);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Location = new System.Drawing.Point(12, 253);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(457, 1);
+            this.panel2.Size = new System.Drawing.Size(400, 1);
             this.panel2.TabIndex = 2;
             // 
             // notice
@@ -202,9 +193,8 @@
             this.notice.Controls.Add(this.text_notice);
             this.notice.Dock = System.Windows.Forms.DockStyle.Top;
             this.notice.Location = new System.Drawing.Point(0, 0);
-            this.notice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.notice.Name = "notice";
-            this.notice.Size = new System.Drawing.Size(485, 250);
+            this.notice.Size = new System.Drawing.Size(424, 200);
             this.notice.TabIndex = 0;
             // 
             // text_notice
@@ -214,7 +204,7 @@
             this.text_notice.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.text_notice.Location = new System.Drawing.Point(0, 0);
             this.text_notice.Name = "text_notice";
-            this.text_notice.Size = new System.Drawing.Size(541, 285);
+            this.text_notice.Size = new System.Drawing.Size(425, 195);
             this.text_notice.TabIndex = 0;
             this.text_notice.Text = resources.GetString("text_notice.Text");
             // 
@@ -225,20 +215,18 @@
             this.panel5.Controls.Add(this.q1_b2);
             this.panel5.Controls.Add(this.q1_b1);
             this.panel5.Controls.Add(this.q1);
-            this.panel5.Location = new System.Drawing.Point(0, 330);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel5.Location = new System.Drawing.Point(0, 264);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(485, 61);
+            this.panel5.Size = new System.Drawing.Size(424, 49);
             this.panel5.TabIndex = 27;
             // 
             // q1_b4
             // 
             this.q1_b4.AutoSize = true;
             this.q1_b4.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q1_b4.Location = new System.Drawing.Point(226, 31);
-            this.q1_b4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q1_b4.Location = new System.Drawing.Point(198, 25);
             this.q1_b4.Name = "q1_b4";
-            this.q1_b4.Size = new System.Drawing.Size(68, 24);
+            this.q1_b4.Size = new System.Drawing.Size(56, 19);
             this.q1_b4.TabIndex = 9;
             this.q1_b4.TabStop = true;
             this.q1_b4.Text = "4학년";
@@ -248,10 +236,9 @@
             // 
             this.q1_b3.AutoSize = true;
             this.q1_b3.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q1_b3.Location = new System.Drawing.Point(155, 31);
-            this.q1_b3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q1_b3.Location = new System.Drawing.Point(136, 25);
             this.q1_b3.Name = "q1_b3";
-            this.q1_b3.Size = new System.Drawing.Size(68, 24);
+            this.q1_b3.Size = new System.Drawing.Size(56, 19);
             this.q1_b3.TabIndex = 8;
             this.q1_b3.TabStop = true;
             this.q1_b3.Text = "3학년";
@@ -261,10 +248,9 @@
             // 
             this.q1_b2.AutoSize = true;
             this.q1_b2.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q1_b2.Location = new System.Drawing.Point(85, 31);
-            this.q1_b2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q1_b2.Location = new System.Drawing.Point(74, 25);
             this.q1_b2.Name = "q1_b2";
-            this.q1_b2.Size = new System.Drawing.Size(68, 24);
+            this.q1_b2.Size = new System.Drawing.Size(56, 19);
             this.q1_b2.TabIndex = 7;
             this.q1_b2.TabStop = true;
             this.q1_b2.Text = "2학년";
@@ -274,10 +260,9 @@
             // 
             this.q1_b1.AutoSize = true;
             this.q1_b1.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q1_b1.Location = new System.Drawing.Point(14, 31);
-            this.q1_b1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q1_b1.Location = new System.Drawing.Point(12, 25);
             this.q1_b1.Name = "q1_b1";
-            this.q1_b1.Size = new System.Drawing.Size(68, 24);
+            this.q1_b1.Size = new System.Drawing.Size(56, 19);
             this.q1_b1.TabIndex = 6;
             this.q1_b1.TabStop = true;
             this.q1_b1.Text = "1학년";
@@ -287,9 +272,9 @@
             // 
             this.q1.AutoSize = true;
             this.q1.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q1.Location = new System.Drawing.Point(10, 9);
+            this.q1.Location = new System.Drawing.Point(9, 7);
             this.q1.Name = "q1";
-            this.q1.Size = new System.Drawing.Size(514, 20);
+            this.q1.Size = new System.Drawing.Size(411, 15);
             this.q1.TabIndex = 3;
             this.q1.Text = "귀하의 학년을 선택해주세요 ( 현재 재학중인 학년을 선택해주시면 됩니다 )";
             // 
@@ -303,20 +288,18 @@
             this.panel6.Controls.Add(this.q2_b2);
             this.panel6.Controls.Add(this.q2_b1);
             this.panel6.Controls.Add(this.q2);
-            this.panel6.Location = new System.Drawing.Point(0, 396);
-            this.panel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel6.Location = new System.Drawing.Point(0, 317);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(485, 54);
+            this.panel6.Size = new System.Drawing.Size(424, 43);
             this.panel6.TabIndex = 27;
             // 
             // q2_b7
             // 
             this.q2_b7.AutoSize = true;
             this.q2_b7.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q2_b7.Location = new System.Drawing.Point(250, 28);
-            this.q2_b7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q2_b7.Location = new System.Drawing.Point(219, 22);
             this.q2_b7.Name = "q2_b7";
-            this.q2_b7.Size = new System.Drawing.Size(92, 24);
+            this.q2_b7.Size = new System.Drawing.Size(75, 19);
             this.q2_b7.TabIndex = 21;
             this.q2_b7.TabStop = true;
             this.q2_b7.Text = "16학번 ~";
@@ -326,10 +309,9 @@
             // 
             this.q2_b6.AutoSize = true;
             this.q2_b6.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q2_b6.Location = new System.Drawing.Point(171, 28);
-            this.q2_b6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q2_b6.Location = new System.Drawing.Point(150, 22);
             this.q2_b6.Name = "q2_b6";
-            this.q2_b6.Size = new System.Drawing.Size(76, 24);
+            this.q2_b6.Size = new System.Drawing.Size(63, 19);
             this.q2_b6.TabIndex = 20;
             this.q2_b6.TabStop = true;
             this.q2_b6.Text = "17학번";
@@ -339,10 +321,9 @@
             // 
             this.q2_b5.AutoSize = true;
             this.q2_b5.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q2_b5.Location = new System.Drawing.Point(93, 28);
-            this.q2_b5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q2_b5.Location = new System.Drawing.Point(81, 22);
             this.q2_b5.Name = "q2_b5";
-            this.q2_b5.Size = new System.Drawing.Size(76, 24);
+            this.q2_b5.Size = new System.Drawing.Size(63, 19);
             this.q2_b5.TabIndex = 19;
             this.q2_b5.TabStop = true;
             this.q2_b5.Text = "18학번";
@@ -352,10 +333,9 @@
             // 
             this.q2_b4.AutoSize = true;
             this.q2_b4.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q2_b4.Location = new System.Drawing.Point(14, 28);
-            this.q2_b4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q2_b4.Location = new System.Drawing.Point(12, 22);
             this.q2_b4.Name = "q2_b4";
-            this.q2_b4.Size = new System.Drawing.Size(76, 24);
+            this.q2_b4.Size = new System.Drawing.Size(63, 19);
             this.q2_b4.TabIndex = 18;
             this.q2_b4.TabStop = true;
             this.q2_b4.Text = "19학번";
@@ -365,10 +345,9 @@
             // 
             this.q2_b3.AutoSize = true;
             this.q2_b3.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q2_b3.Location = new System.Drawing.Point(357, 2);
-            this.q2_b3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q2_b3.Location = new System.Drawing.Point(312, 2);
             this.q2_b3.Name = "q2_b3";
-            this.q2_b3.Size = new System.Drawing.Size(76, 24);
+            this.q2_b3.Size = new System.Drawing.Size(63, 19);
             this.q2_b3.TabIndex = 17;
             this.q2_b3.TabStop = true;
             this.q2_b3.Text = "20학번";
@@ -378,10 +357,9 @@
             // 
             this.q2_b2.AutoSize = true;
             this.q2_b2.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q2_b2.Location = new System.Drawing.Point(278, 5);
-            this.q2_b2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q2_b2.Location = new System.Drawing.Point(243, 4);
             this.q2_b2.Name = "q2_b2";
-            this.q2_b2.Size = new System.Drawing.Size(76, 24);
+            this.q2_b2.Size = new System.Drawing.Size(63, 19);
             this.q2_b2.TabIndex = 16;
             this.q2_b2.TabStop = true;
             this.q2_b2.Text = "21학번";
@@ -391,10 +369,9 @@
             // 
             this.q2_b1.AutoSize = true;
             this.q2_b1.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q2_b1.Location = new System.Drawing.Point(199, 5);
-            this.q2_b1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q2_b1.Location = new System.Drawing.Point(174, 4);
             this.q2_b1.Name = "q2_b1";
-            this.q2_b1.Size = new System.Drawing.Size(76, 24);
+            this.q2_b1.Size = new System.Drawing.Size(63, 19);
             this.q2_b1.TabIndex = 15;
             this.q2_b1.TabStop = true;
             this.q2_b1.Text = "22학번";
@@ -404,9 +381,9 @@
             // 
             this.q2.AutoSize = true;
             this.q2.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q2.Location = new System.Drawing.Point(10, 5);
+            this.q2.Location = new System.Drawing.Point(9, 4);
             this.q2.Name = "q2";
-            this.q2.Size = new System.Drawing.Size(199, 20);
+            this.q2.Size = new System.Drawing.Size(159, 15);
             this.q2.TabIndex = 14;
             this.q2.Text = "귀하의 학번을 선택해주세요";
             // 
@@ -415,20 +392,18 @@
             this.panel8.Controls.Add(this.q4_b2);
             this.panel8.Controls.Add(this.q4);
             this.panel8.Controls.Add(this.q4_b1);
-            this.panel8.Location = new System.Drawing.Point(0, 490);
-            this.panel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel8.Location = new System.Drawing.Point(0, 392);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(486, 31);
+            this.panel8.Size = new System.Drawing.Size(425, 25);
             this.panel8.TabIndex = 20;
             // 
             // q4_b2
             // 
             this.q4_b2.AutoSize = true;
             this.q4_b2.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q4_b2.Location = new System.Drawing.Point(337, 4);
-            this.q4_b2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q4_b2.Location = new System.Drawing.Point(295, 3);
             this.q4_b2.Name = "q4_b2";
-            this.q4_b2.Size = new System.Drawing.Size(60, 24);
+            this.q4_b2.Size = new System.Drawing.Size(49, 19);
             this.q4_b2.TabIndex = 30;
             this.q4_b2.TabStop = true;
             this.q4_b2.Text = "없다";
@@ -439,9 +414,9 @@
             // 
             this.q4.AutoSize = true;
             this.q4.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q4.Location = new System.Drawing.Point(10, 5);
+            this.q4.Location = new System.Drawing.Point(9, 4);
             this.q4.Name = "q4";
-            this.q4.Size = new System.Drawing.Size(281, 20);
+            this.q4.Size = new System.Drawing.Size(225, 15);
             this.q4.TabIndex = 28;
             this.q4.Text = "귀하는 추후 휴학을 할 생각이 있습니까?";
             this.q4.Visible = false;
@@ -450,10 +425,9 @@
             // 
             this.q4_b1.AutoSize = true;
             this.q4_b1.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.q4_b1.Location = new System.Drawing.Point(274, 4);
-            this.q4_b1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q4_b1.Location = new System.Drawing.Point(240, 3);
             this.q4_b1.Name = "q4_b1";
-            this.q4_b1.Size = new System.Drawing.Size(60, 24);
+            this.q4_b1.Size = new System.Drawing.Size(49, 19);
             this.q4_b1.TabIndex = 29;
             this.q4_b1.TabStop = true;
             this.q4_b1.Text = "있다";
@@ -462,15 +436,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(485, 551);
+            this.ClientSize = new System.Drawing.Size(424, 441);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.title_base);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

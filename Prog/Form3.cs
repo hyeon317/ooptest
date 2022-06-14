@@ -12,10 +12,19 @@ namespace Prog
 {
     public partial class Form3 : Form
     {
+        bool close_by_button = false;
         public Form3()
         {
             InitializeComponent();
+            FormClosing += Form1_FormClosing;
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (close_by_button == false)
+                Application.Exit();
+        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -39,6 +48,6 @@ namespace Prog
             else
                 MessageBox.Show("답하지 않은 문항이 있습니다.\n모든 문항에 응답해주세요.");
         }
-
     }
-}
+    }
+

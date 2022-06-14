@@ -15,6 +15,12 @@ namespace Prog
         public Form1()
         {
             InitializeComponent();
+            FormClosing += Form1_FormClosing;
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.ExitThread();
         }
 
         private void next_Click(object sender, EventArgs e)
@@ -28,6 +34,14 @@ namespace Prog
                     this.Visible = false;
                     Form4 showForm4 = new Form4();
                     showForm4.ShowDialog();
+                    try
+                    {
+                        this.Visible = true;
+                    }
+                    catch
+                    {
+
+                    }
                 }
                 else
                 {
@@ -45,6 +59,14 @@ namespace Prog
                     this.Visible = false;
                     Form2 showForm2 = new Form2();
                     showForm2.ShowDialog();
+                    try
+                    {
+                        this.Visible = true;
+                    }
+                    catch
+                    {
+
+                    }
                 }
                 else
                 {
@@ -62,6 +84,14 @@ namespace Prog
                     this.Visible = false;
                     Form3 showForm3 = new Form3();
                     showForm3.ShowDialog();
+                    try
+                    {
+                        this.Visible = true;
+                    }
+                    catch
+                    {
+
+                    }
                 }
                 else
                 {
